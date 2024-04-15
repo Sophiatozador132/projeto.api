@@ -14,9 +14,7 @@ def aleatorios():
 
 @app.route("/argumentos/<string:nome>")
 def argumentos(nome: str):
-    return jsonify({"status": 200, "data": nome}0)
+    return jsonify({"status": 200, "data": nome})
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
