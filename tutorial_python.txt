@@ -53,5 +53,5 @@ Passo a passo da instalação do Virtualenv:
    Para desinstalar o virtualenv, você pode usar o comando abaixo no prompt de comando:
    pip uninstall virtualenv
 
+   O Flask é um framework leve para desenvolvimento web em Python. Ele é classificado como um "microframework" porque não requer ferramentas ou bibliotecas específicas.
    Instalação do Flask:
-   
