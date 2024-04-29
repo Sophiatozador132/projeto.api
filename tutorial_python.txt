@@ -55,3 +55,30 @@ Passo a passo da instalação do Virtualenv:
 
    O Flask é um framework leve para desenvolvimento web em Python. Ele é classificado como um "microframework" porque não requer ferramentas ou bibliotecas específicas.
    Instalação do Flask:
+1. Certifique-se de ter o Python instalado:
+   - Verifique se o Python está instalado em seu sistema. Você pode fazer isso digitando python --version no terminal. Se não estiver instalado, baixe e instale a versão mais recente do Python em https://www.python.org/downloads/.
+2. Instale o Flask usando o pip:
+   - Abra o terminal (ou prompt de comando) e execute o seguinte comando para instalar o Flask:
+     pip install Flask
+3. Crie um arquivo Python para o seu aplicativo Flask:
+   - Crie um novo arquivo Python (por exemplo, app.py) e abra-o em um editor de texto ou IDE.
+4. Escreva o código do aplicativo Flask:
+   - No arquivo app.py, escreva o código para seu aplicativo Flask. Por exemplo:
+     python
+     from flask import Flask
+
+     app = Flask(__name__)
+
+     @app.route('/')
+     def hello_world():
+         return 'Hello, World!'
+
+     if __name__ == '__main__':
+         app.run()
+
+5. Execute o aplicativo Flask:
+   - No terminal, navegue até o diretório onde está seu arquivo app.py e execute-o digitando:  
+     python app.py
+6. Acesse o aplicativo no navegador:
+   - Abra um navegador da web e vá para http://localhost:5000/. Você deverá ver a mensagem "Hello, World!" exibida, indicando que seu aplicativo Flask está funcionando corretamente.
+Com esses passos, você terá instalado e executado um aplicativo Flask simples em seu sistema.
