@@ -52,3 +52,6 @@ Passo a passo da instalação do Virtualenv:
 7. Desinstale o virtualenv (opcional):
    Para desinstalar o virtualenv, você pode usar o comando abaixo no prompt de comando:
    pip uninstall virtualenv
+
+   Instalação do Flask:
+   
