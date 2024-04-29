@@ -1,0 +1,1 @@
+Python é uma linguagem de programação orientada a objetos, de alto nível, interpretada de script, de tipagem dinâmica e forte. 
