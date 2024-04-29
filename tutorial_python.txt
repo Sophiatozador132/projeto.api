@@ -1,9 +1,54 @@
 Python é uma linguagem de programação orientada a objetos, de alto nível, interpretada de script, de tipagem dinâmica e forte. 
 Passo a passo da instalação:
-Passo 1: Baixe o instalador
-Passo 2: Execute o instalador
-Passo 3: Personalize e conclua a instalação
+1. Baixe o instalador:
+   - Acesse o site oficial do Python em https://www.python.org/downloads/.
+   - Clique no botão de download da versão mais recente do Python para o seu sistema operacional (Windows, macOS ou Linux).
+2. Execute o instalador:
+   - Após o download, execute o arquivo de instalação baixado.
+   - Marque a opção "Add Python x.x to PATH" durante a instalação (substitua "x.x" pela versão do Python que você está instalando).
+3. Personalize a instalação (opcional):
+   - Caso deseje personalizar a instalação, você pode selecionar os recursos a serem instalados (por exemplo, adicionar o Python ao PATH do sistema).
+4. Conclua a instalação:
+   - Siga as instruções na tela para concluir a instalação.
+   - Após a instalação, você pode verificar se o Python foi instalado corretamente abrindo um terminal (no Windows, use o prompt de comando) e digitando python --version ou python3 --version.
+5. Atualize o pip (gerenciador de pacotes do Python):
+   - O pip geralmente é instalado automaticamente com o Python. Para garantir que esteja atualizado, execute o seguinte comando: 
+     python -m pip install --upgrade pip
+6. Instale um ambiente virtual (opcional):
+   - Para isolar seu ambiente de desenvolvimento, você pode criar um ambiente virtual. Para isso, instale o pacote virtualenv usando o pip:
+      pip install virtualenv
+7. Crie e ative um ambiente virtual (opcional):
+   - Para criar um ambiente virtual, execute o comando:
+     virtualenv nome_do_ambiente
+   - Para ativar o ambiente virtual, no Windows, use:
+     nome_do_ambiente\Scripts\activate
+     No macOS e Linux, use:
+     source nome_do_ambiente/bin/activate
+8. Instale pacotes adicionais (opcional):
+   - Você pode instalar pacotes adicionais usando o pip. Por exemplo:
+     pip install pacote
+Após seguir esses passos, o Python estará instalado e pronto para uso em seu sistema.
 
-tutorial virtualenv
+Tutorial Virtualenv:
 O virtualenv é uma ferramenta usada para criar ambientes Python isolados. Isso significa que você pode ter diferentes ambientes Python em um mesmo computador, evitando conflitos entre diferentes versões de pacotes ou dependências de projetos.
 
+Passo a passo da instalação do Virtualenv:
+1. Instale o virtualenv usando o pip:
+   Abra o prompt de comando e digite o seguinte comando para instalar o virtualenv:
+   pip install virtualenv
+2. Crie um ambiente virtual:
+   Escolha um diretório onde deseja criar o ambiente virtual e acesse-o no prompt de comando. Em seguida, execute o comando abaixo para criar o ambiente virtual (substitua nome_do_ambiente pelo nome que deseja dar ao ambiente):
+   virtualenv nome_do_ambiente
+3. Ative o ambiente virtual:
+   Para ativar o ambiente virtual, execute o seguinte comando: 
+   nome_do_ambiente\Scripts\activate
+4. Desative o ambiente virtual:
+   Para desativar o ambiente virtual, basta digitar deactivate no prompt de comando.
+5. Instale pacotes no ambiente virtual:
+   Com o ambiente virtual ativado, você pode instalar pacotes Python usando o pip, que instalará os pacotes apenas no ambiente virtual e não globalmente. Por exemplo:
+   pip install nome_do_pacote
+6. Use o ambiente virtual com o seu projeto:
+   Após criar e ativar o ambiente virtual, você pode usar o Python e instalar pacotes específicos para o seu projeto dentro deste ambiente. Isso garante que as dependências do seu projeto sejam isoladas de outros projetos.
+7. Desinstale o virtualenv (opcional):
+   Para desinstalar o virtualenv, você pode usar o comando abaixo no prompt de comando:
+   pip uninstall virtualenv
