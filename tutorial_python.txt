@@ -1,1 +1,5 @@
 Python é uma linguagem de programação orientada a objetos, de alto nível, interpretada de script, de tipagem dinâmica e forte. 
+Passo a passo da instalação:
+Passo 1: Baixe o instalador
+Passo 2: Execute o instalador
+Passo 3: Personalize e conclua a instalação
