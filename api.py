@@ -1,3 +1,4 @@
+from urllib.request import Request
 from flask import Blueprint, app, jsonify
 bp = Blueprint("api", __name__)
 
