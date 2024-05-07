@@ -1,7 +1,9 @@
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
-@app.route('/')
+
+from api import bp
+app.register_blueprint(bp)
 
 @app.route("/", methods=("GET",))
 def index():
